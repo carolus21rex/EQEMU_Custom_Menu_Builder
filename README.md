@@ -1,20 +1,20 @@
-##EQEMU Menu Builder
+## EQEMU Menu Builder
 
 
 ![image](https://github.com/user-attachments/assets/2abdf202-82ab-43c5-8325-af8c32edee36)
 
 
 
-#What is the goal?
+# What is the goal?
 The goal of this repo is to make a custom UI for eqemu inside dinput to be able to do various tasks.
 
 
-#Features
+# Features
 Use any texture or font you would like for your menu.
 Menu Builder supports drag and click mouse events. More may come soon.
 
 
-#How to use it
+# How to use it
 1. Copy the required files into your dinput repository
 2. (optional) Make images to use as textures for your custom UI
 3. (optional) If you want a server packet to open your menu use HandleWorldMessage_Detour in eqgame.cpp like so:
