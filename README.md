@@ -1,7 +1,8 @@
 ##EQEMU Menu Builder
 
 
-https://cdn.discordapp.com/attachments/557677602706423982/1346124883788169296/image.png?ex=67c70bfe&is=67c5ba7e&hm=a51f4dc13a7bdc418139cc0082e943bd20dd8aa83ed9320c23f0d7e2f37c3e1e&
+![image](https://github.com/user-attachments/assets/2abdf202-82ab-43c5-8325-af8c32edee36)
+
 
 
 #What is the goal?
