@@ -49,7 +49,10 @@ menuBuilder->AddTexture(2 * spells + 8, spells * 256 - 32, 0);
     menuBuilder->AddTexture(2 * spells + 9, 0, 0, AoT_Menu_Builder::EventType::Click, std::bind(&AoT_Spells_UI::minimizeClick, this));
 ```
  A large mistake of how I made this is the indecies for graphical elements are convoluted. How it works is the elements are added to a vector as they are initialized. The intention is to minimize the amount of files that need to be pulled into memory. This almost certainly needs to be improved.
+
 7. Any interactive portions of your menu will need their functionality made.
+
 8. When youre done with your menu, call your menus cleanup. this will clean up the menu builder as well.
+
 9. If there are no guis running call cleanup on guimaster as well to avoid wasting resources.
 
